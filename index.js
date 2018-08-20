@@ -79,13 +79,12 @@ export default class Hello360 extends React.Component {
               {rotateY: this.state.rotateValue}
             ]
           }}>
-          <Entity source={{obj: asset('jax/Jax.obj'), mtl: asset('jax/Jax.mtl')}}
-          // texture={asset('man/001_MidPolyDiffuse.png')}
+          <Entity source={{obj: asset('models/raiden/Raiden.obj'), mtl: asset('models/raiden/Raiden.mtl')}}
           lit={true}
           style={{
             transform: [
               {translate: [0, 0, 0]},
-              {scale: .1}
+              {scale: 10}
             ]
           }} />
         </Animated.View>
